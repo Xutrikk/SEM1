@@ -1,0 +1,18 @@
+telo {
+    display: inline;
+}
+osnova {
+    display: block;
+    text-align: center;
+    margin: 5px;
+    font-size: 50px;
+}
+text {
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+}
+title, thms {
+    display: table-cell;
+    border: 1px solid black;
+    padding: 4px; 
+    }

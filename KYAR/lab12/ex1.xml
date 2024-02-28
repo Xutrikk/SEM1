@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/css" href="file.css"?>
+<catalog>
+<cd>
+<title>1</title>
+<thms>Всё добро</thms>
+</cd>
+<cd>
+<title>2</title>
+<thms>Здесь все гораздо лучше</thms>
+</cd>
+<cd>
+<title>3</title>
+<thms>А здесь все как-то хуже</thms>
+</cd>
+   </catalog>

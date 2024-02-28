@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="file.css"?>
+<telo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="note.xsd">
+    <osnova>Котики</osnova>
+    <text>Очень классные,но моя кошка самая лучшая</text>
+</telo>
