@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="2.1.css"> 
+    <title>Меню</title>
+</head>
+<body>
+    <style>
+        .container-1 {
+            height: 30px;
+            margin-bottom: 20px;
+        }
+        .zag{
+           border: 1px solid black;
+           flex-grow: 1;
+           text-align: center;
+           font-size: 20px;
+        }
+        
+        .div1{
+            border: 1px solid black;
+            flex-basis: 30%;
+            text-align: center;
+        }
+        .div2{
+            border: 1px solid black;
+            flex-basis: 35%;
+        }
+        .div3{
+            border: 1px solid black;
+            flex-basis: 30%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <input type="checkbox" id="menu-mobile" />
+        <nav role="navigation">
+            <label for="menu-mobile" class="toggle-button" onclick>Меню<span>&#8801</span></label>
+            <ul class="main-menu">
+                <li><a href="#id1">Видео</a></li>
+                <li><a href="#id2">Текст</a></li>
+                <li><a href="#id3">Музыка</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container-1">
+        <div class="zag">Меню</div>
+    </div>
+    <div class="container-2">
+            <div class="div1" id="id1">
+                <video src="ilyaspit.MOV" controls></video>
+                <video src="videodance.mp4" controls></video>
+                <video src="videomolodost.mp4" controls></video>
+            </div>
+            <div class="div2" id="id2">
+                <p>Flexbox-верстка — разметка макетов веб-страниц, которая позволяет 
+                автоматически настраивать ширину элементов, находящихся внутри flex контейнера. Для применения данного способа разметки следует учитывать 
+                разделение применяемых свойств на свойства flex-контейнера и свойства 
+                flex-элемента.</p>
+                <p>С помощью display: flex; осуществляется преобразование HTML элемента в flex-контейнер, а элементы находящийся внутри него в flex элементы. По умолчанию flex-элементы помещаются друг за другом в одной 
+                строке. Свойство flex-flow позволяет выбрать направление отображения 
+                элементов в контейнере, а также указать их перенос на следующую строку. 
+                Первое значение определяет направление, а второе перенос на следующую 
+                строку.</p>
+                <p>Свойство flex-flow является сокращенной запись и содержит значения 
+                свойств flex-direction и flex-wrap. Flex-элементы могут размещаться в строке 
+                (значение row) или в колонке (значение column). Перенос элементов 
+                осуществляется с помощью значения wrap.</p>
+            </div>
+            <div class="div3" id="id3">
+                <audio controls>
+                    <source src="friendly-thug-52-ngg-lost-angeles-mp3.mp3" type="audio/mp3">
+                </audio>
+                <audio controls>
+                    <source src="friendly-thug-52-ngg-sladki-snov-rapper-2-mp3.mp3" type="audio/mp3">
+                </audio>
+                <audio controls>
+                    <source src="FRIENDLY THUG 52 NGG feat. White Punk - Victor.mp3" type="audio/mp3">
+                </audio>
+            </div>        
+    </div>      
+</body>
+</html>
